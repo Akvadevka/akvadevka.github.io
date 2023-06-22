@@ -19,8 +19,9 @@ a{
 a:hover {
     color: #20c997;
 }
-.container h5 {
+.container h3 {
     margin-top: 20px;
+    font-size: 25px;
 }
 
 main .about > p{
