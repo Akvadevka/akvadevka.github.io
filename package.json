@@ -1,0 +1,29 @@
+{
+    "type": "module",
+    "name": "tsjson",
+    "version": "1.0.0",
+    "compilerOptions": {
+        "lib": [
+            "es2015"
+        ]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "tsjson",
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.1.0",
+        "@rollup/plugin-terser": "^0.4.3",
+        "@rollup/plugin-typescript": "^11.1.2",
+        "@types/node": "^20.3.3",
+        "rollup": "^3.26.0",
+        "tslib": "^2.6.0",
+        "tslint": "^4.5.1",
+        "typescript": "^5.1.6"
+    },
+    "scripts": {
+        "build": "rollup --config rollup.config.js"
+    },
+    "dependencies": {
+        "dayjs": "1.10.7"
+    }
+}
