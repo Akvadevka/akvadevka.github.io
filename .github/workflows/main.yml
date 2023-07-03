@@ -9,11 +9,11 @@ jobs:
         steps:
         - name: Checkout
           uses: actions/checkout@master
-
         - name: Build and Deploy
-          uses: actions/github-pages-deploy-action@master
+          uses: actions/setup-node@master
+#           uses: actions/github-pages-deploy-action@master
           env:
             ACCESS_TOKEN: $
-            BRANCH: gh-pages
+            BRANCH: master
             FOLDER: dist/bundle.js
             BUILD_SCRIPT: npm install && npm run build
