@@ -11,7 +11,7 @@ jobs:
           uses: actions/checkout@master
 
         - name: Build and Deploy
-          uses: akvadevka.github.io/github-pages-deploy-action@master
+          uses: actions/github-pages-deploy-action@master
           env:
             ACCESS_TOKEN: $
             BRANCH: gh-pages
