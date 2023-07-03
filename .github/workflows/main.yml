@@ -1,0 +1,17 @@
+name: Install node_modules
+
+on:
+  push:
+    tags: ['homework3']
+
+jobs:
+  run-npm-build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: npm install and build webpack
+      run: |
+          npm install
+          npm run build
+
+        
