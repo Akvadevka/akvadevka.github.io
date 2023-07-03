@@ -15,7 +15,6 @@ jobs:
             node-version: '20.x'
 #           uses: actions/github-pages-deploy-action@master
           env:
-            ACCESS_TOKEN: $
             BRANCH: master
             FOLDER: dist/bundle.js
             BUILD_SCRIPT: npm install && npm run build
