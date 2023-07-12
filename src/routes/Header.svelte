@@ -13,5 +13,4 @@
 			/>
 		</svg>
 	</a>
-	<a href="./comic" id="header">Joke</a>
 </div>

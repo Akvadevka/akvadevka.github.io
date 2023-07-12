@@ -1,5 +1,5 @@
 <script lang="ts">
-	let comic = './comic/' as const;
+	let comic = './comic' as const;
 </script>
 
 <div class="joke">
