@@ -1,3 +1,7 @@
+<script>
+	import photo from './../../img/img.jpg';
+</script>
+
 <header>
 	<h1>Hey, I'm</h1>
 	<h2>Kseniia Voronova</h2>
@@ -5,7 +9,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-3">
-			<img id="photo1" src="./../../img/img.jpg" class="img-fluid" alt="me" />
+			<img id="photo1" src={photo} class="img-fluid" alt="me" />
 		</div>
 		<div class="col-lg-8 about">
 			<p>
