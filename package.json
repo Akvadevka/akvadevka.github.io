@@ -32,7 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@sveltejs/adapter-cloudflare": "^2.3.1",
+		"@sveltejs/adapter-static": "^2.0.2",
 		"bootstrap": "^5.3.0",
 		"dayjs": "^1.10.7"
 	}
